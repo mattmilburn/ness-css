@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+html,
+body {
+  background: $body-background;
+  font-size: rem($body-font-size);
+}
+
+body {
+  color: $body-color;
+  font-family: $body-font-family;
+  font-size: rem($body-font-size);
+  line-height: $body-line-height;
+}

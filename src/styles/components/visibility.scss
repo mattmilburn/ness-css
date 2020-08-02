@@ -1,0 +1,4 @@
+// Text meant only for screen readers.
+.aria-text {
+  @include aria-text();
+}

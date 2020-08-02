@@ -1,0 +1,23 @@
+ul,
+ol {
+  margin: rem(16) 0;
+  padding: 0;
+
+  ul,
+  ol {
+    margin: 0;
+  }
+
+  // Use common bullet formats for nested ordered lists.
+  ol {
+    list-style: lower-alpha;
+
+    ol {
+      list-style: lower-roman;
+    }
+  }
+}
+
+li {
+  margin-left: rem(32);
+}

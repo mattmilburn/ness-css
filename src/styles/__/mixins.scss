@@ -1,0 +1,110 @@
+/**
+ * @TODO Add doc comment.
+ */
+@mixin aria-text() {
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  word-wrap: normal !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  overflow: hidden;
+  position: absolute;
+}
+
+/**
+ * @TODO Add doc comment.
+ */
+@mixin hr-color( $color ) {
+  border-top-color: $color;
+}
+
+/**
+ * @TODO Add doc comment.
+ */
+@mixin reset-button() {
+  padding: 0;
+  border: 0;
+  background: none;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+/**
+ * @TODO Add doc comment.
+ */
+@mixin reset-list() {
+  padding: 0;
+  list-style: none;
+}
+
+/**
+ * @TODO Add doc comment.
+ */
+@mixin triangle( $size, $color, $direction ) {
+  @include triangle-base();
+  @include triangle-size( $size, $direction );
+  @include triangle-color( $color, $direction );
+}
+
+/**
+ * @TODO Add doc comment.
+ */
+@mixin triangle-base() {
+  width: 0;
+  height: 0;
+  display: block;
+  content: '';
+}
+
+/**
+ * @TODO Add doc comment.
+ */
+@mixin triangle-size( $size, $direction ) {
+  border: inset $size;
+
+  @if ( $direction == up ) {
+    border-top-width: 0;
+    border-bottom-style: solid;
+  }
+
+  @if ( $direction == down ) {
+    border-bottom-width: 0;
+    border-top-style: solid;
+  }
+
+  @if ( $direction == left ) {
+    border-left-width: 0;
+    border-right-style: solid;
+  }
+
+  @if ( $direction == right ) {
+    border-right-width: 0;
+    border-left-style: solid;
+  }
+}
+
+/**
+ * @TODO Add doc comment.
+ */
+@mixin triangle-color( $color, $direction ) {
+  @if ( $direction == up ) {
+    border-color: transparent transparent $color;
+  }
+
+  @if ( $direction == down ) {
+    border-color: $color transparent transparent;
+  }
+
+  @if ( $direction == left ) {
+    border-color: transparent $color transparent transparent;
+  }
+
+  @if ( $direction == right ) {
+    border-color: transparent transparent transparent $color;
+  }
+}

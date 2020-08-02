@@ -1,0 +1,19 @@
+.form-group {
+  margin: rem(16) 0;
+}
+
+.form-control {
+  width: 100%;
+  max-width: 100%;
+  padding: rem(8);
+  background-color: color('white');
+  border: rem(1) solid color('gray');
+  border-radius: rem(4);
+  font-family: $body-font-family;
+  font-size: rem($body-font-size);
+  line-height: 1;
+}
+
+select.form-control {
+  -webkit-appearance: none;
+}

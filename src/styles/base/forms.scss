@@ -1,0 +1,14 @@
+fieldset {
+  margin: rem(16) 0;
+  padding: 0;
+  border: 0;
+}
+
+legend {
+  font-weight: bold;
+}
+
+textarea {
+  height: auto;
+  min-height: rem(64);
+}

@@ -1,0 +1,39 @@
+/**
+ * Variables
+ */
+
+// Colors
+$colors: (
+  'black': #000,
+  'white': #fff,
+
+  'gray': #777,
+  'gray-dark': #333,
+  'gray-light': #ccc,
+
+  'primary': #08c,
+);
+
+// Body
+$body-background: color('white');
+$body-color: color('black');
+$body-font-family: Arial, sans-serif;
+$body-font-size: 16px;
+$body-line-height: 1.5;
+
+// Links
+$link-color: color('primary');
+$link-color-hover: lighten(color('primary'), 10%);
+
+// Headings
+$headings-font-family: $body-font-family;
+$headings-font-weight: 700;
+$headings-line-height: 1.25;
+
+$h1-font-size: 40px;
+$h2-font-size: 32px;
+$h3-font-size: 24px;
+$h4-font-size: 20px;
+
+// Horizontal Rule
+$hr-color: color('gray-light');

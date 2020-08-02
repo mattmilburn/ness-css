@@ -1,0 +1,23 @@
+{
+  "name": "ness-css",
+  "version": "1.0.0",
+  "description": "Necessary / Essential CSS boilerplate with minimal opinions and a few extras.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattmilburn/ness-css.git"
+  },
+  "keywords": [
+    "css",
+    "sass"
+  ],
+  "author": "Matt Milburn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattmilburn/ness-css/issues"
+  },
+  "homepage": "https://github.com/mattmilburn/ness-css#readme"
+}

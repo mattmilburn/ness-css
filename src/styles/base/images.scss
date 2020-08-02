@@ -1,0 +1,12 @@
+figure {
+  margin: rem(16) rem(32);
+}
+
+img {
+  // Responsive by default.
+  max-width: 100%;
+  height: auto;
+
+  // Use `inline-block` to remove unwanted spacing under images.
+  display: inline-block;
+}

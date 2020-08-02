@@ -1,1 +1,1 @@
-// Nothing yet.
+import './styles/index.scss';

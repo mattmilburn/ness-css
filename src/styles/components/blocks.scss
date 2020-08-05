@@ -1,0 +1,16 @@
+.block {
+	margin: rem(16) 0;
+	padding: rem(16);
+	background: color('white');
+	border: rem(1) solid color('gray-light');
+	border-radius: rem(4);
+	box-shadow: 0 rem(2) rem(4) rgba(color('black'), 0.1);
+
+	> :first-child {
+		margin-top: 0;
+	}
+
+	> :last-child {
+		margin-bottom: 0;
+	}
+}

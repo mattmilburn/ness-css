@@ -8,7 +8,11 @@ legend {
   font-weight: bold;
 }
 
+label {
+  cursor: pointer;
+}
+
 textarea {
   height: auto;
-  min-height: rem(64);
+  min-height: rem(96);
 }

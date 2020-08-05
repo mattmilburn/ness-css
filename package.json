@@ -12,8 +12,14 @@
     "url": "git+https://github.com/mattmilburn/ness-css.git"
   },
   "keywords": [
+    "boilerplate",
     "css",
-    "sass"
+    "essential",
+    "framework",
+    "minimal",
+    "necessary",
+    "sass",
+    "scss"
   ],
   "author": "Matt Milburn",
   "license": "MIT",

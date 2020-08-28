@@ -1,6 +1,6 @@
 {
   "name": "ness-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Necessary / Essential CSS boilerplate with minimal opinions and a few extras.",
   "main": "scss/index.scss",
   "scripts": {

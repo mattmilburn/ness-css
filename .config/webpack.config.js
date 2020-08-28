@@ -3,7 +3,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   mode: 'development',
-  entry: path.resolve( process.cwd(), 'src/index.js' ),
+  entry: path.resolve( process.cwd(), 'index.js' ),
   output: {
     path: path.resolve( process.cwd(), 'dist' ),
     filename: 'ness.bundle.js',

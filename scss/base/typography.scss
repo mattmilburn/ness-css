@@ -14,7 +14,7 @@ h1 { font-size: rem($h1-font-size); }
 h2 { font-size: rem($h2-font-size); }
 h3 { font-size: rem($h3-font-size); }
 
-// Headings 5 and 6 headings are not a priority. Let them adopt heading 4 styles.
+// Headings 5 and 6 headings are not a priority. Let them share heading 4 styles.
 h4,
 h5,
 h6 { font-size: rem($h4-font-size); }

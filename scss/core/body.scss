@@ -1,0 +1,21 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  background: $body-background;
+}
+
+body {
+  color: $body-color;
+  font: $body-font-weight #{rem($body-font-size)}/$body-line-height $body-font-family;
+  overflow-x: hidden;
+}

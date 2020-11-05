@@ -1,16 +1,14 @@
+/**
+ * @TODO Name should be something like block, box, card, material, panel, etc.
+ * @TODO Maybe just "mat" for "material"?
+ * @TODO Maybe don't create this class, just use it in the config demo.
+ * @TODO It would still exist in variables.
+ */
+
 .block {
-	margin: rem(16) 0;
 	padding: rem(16);
 	background: color('white');
 	border: rem(1) solid color('gray-light');
 	border-radius: rem(4);
-	box-shadow: 0 rem(2) rem(4) rgba(color('black'), 0.1);
-
-	> :first-child {
-		margin-top: 0;
-	}
-
-	> :last-child {
-		margin-bottom: 0;
-	}
+	box-shadow: 0 rem(2) rem(6) rgba(color('black'), 0.1);
 }

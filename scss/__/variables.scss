@@ -2,6 +2,16 @@
  * Variables
  */
 
+// Breakpoints
+$breakpoints: (
+  'xs': 360, // 45
+  'sm': 480, // 60
+  'md': 768, // 96
+  'lg': 992, // 124
+  'xl': 1200, // 150
+  'xxl': 1400, // 175
+);
+
 // Colors
 $colors: (
   'black': #000,
@@ -19,6 +29,7 @@ $body-background: color('white');
 $body-color: color('black');
 $body-font-family: Arial, sans-serif;
 $body-font-size: 16px;
+$body-font-weight: 400;
 $body-line-height: 1.5;
 
 // Links

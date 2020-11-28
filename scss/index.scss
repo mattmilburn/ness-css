@@ -3,10 +3,8 @@
 @import "__/variables";
 @import "__/mixins";
 
-// Normalize
-@import '~normalize.css';
-
 // Core
+@import 'core/normalize';
 @import "core/body";
 @import "core/links";
 @import "core/typography";

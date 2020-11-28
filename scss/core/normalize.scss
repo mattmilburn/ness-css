@@ -1,0 +1,221 @@
+html {
+  /* Correct the line height in all browsers. */
+  line-height: 1.15;
+
+  /* Prevent adjustments of font size after orientation changes in iOS. */
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+::before,
+::after {
+  /**
+   * Prevent padding and border from affecting element width.
+   * See https://github.com/mozdevs/cssremedy/issues/4
+   */
+  box-sizing: border-box;
+
+  /**
+   * Allow adding a border to an element by just adding a border-width.
+   * See https://github.com/tailwindcss/tailwindcss/pull/116
+   */
+  border-width: 0;
+  border-style: solid;
+  border-color: #ccc;
+}
+
+/* Removes the default spacing and border for appropriate elements. */
+body,
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+/**
+ * =============================================================================
+ * HORIZONTAL RULE
+ * =============================================================================
+ */
+
+hr {
+  height: 0;
+  border-top-width: 1px;
+
+  /* Show the overflow in Edge. */
+  overflow: visible;
+}
+
+/**
+ * =============================================================================
+ * CODE
+ * =============================================================================
+ */
+
+pre,
+code {
+  /* Correct the odd `em` font sizing in all browsers. */
+  font-size: 1em;
+
+  /* Correct the inheritance and scaling of font size in all browsers. */
+  font-family: monospace, monospace;
+}
+
+/**
+ * =============================================================================
+ * INLINE ELEMENTS
+ * =============================================================================
+ */
+
+abbr[title] {
+  /* Remove the bottom border in Chrome 57- */
+  border-bottom: none;
+
+  /* Add the correct text decoration in Chrome, Edge, Opera, and Safari. */
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+b,
+strong {
+  /* Add the correct font weight in Chrome, Edge, and Safari. */
+  font-weight: bolder;
+}
+
+small {
+  /* Add the correct font size in all browsers. */
+  font-size: 80%;
+}
+
+/* Prevent `sub` and `sup` elements from affecting the line height in all browsers. */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/**
+ * =============================================================================
+ * FORMS
+ * =============================================================================
+ */
+
+fieldset {
+  /* Correct the padding in Firefox. */
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  /* Correct the text wrapping in Edge. */
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+  display: table;
+}
+
+textarea {
+  /* Enforce vertical resizing only for textareas. */
+  resize: vertical;
+}
+
+progress {
+  /* Add the correct vertical alignment in Chrome, Firefox, and Opera. */
+  vertical-align: baseline;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  /* Remove the margin in Firefox and Safari. */
+  margin: 0;
+
+  /* Change the font styles in all browsers. */
+  font-size: 100%;
+  font-family: inherit;
+  line-height: 1.15;
+}
+
+input {
+  /* Show the overflow in Edge. */
+  overflow: visible;
+}
+
+button,
+select {
+  /* Remove the inheritance of text transform in Edge and Firefox. */
+  text-transform: none;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  /* Correct the inability to style clickable types in iOS and Safari. */
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  /* Remove the padding and inner border in Firefox. */
+  padding: 0;
+  border-style: none;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  /* Restore the focus styles unset by the previous rule. */
+  outline: 1px dotted ButtonText;
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  /* Correct the cursor style of increment and decrement buttons in Chrome. */
+  height: auto;
+}
+
+[type="search"] {
+  /* Correct the odd appearance in Chrome and Safari. */
+  -webkit-appearance: textfield;
+
+  /* Correct the outline style in Safari. */
+  outline-offset: -2px;
+}
+
+[type="search"]::-webkit-search-decoration {
+  /* Remove the inner padding in Chrome and Safari on macOS. */
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  /* Correct the inability to style clickable types in iOS and Safari. */
+  -webkit-appearance: button;
+
+  /* Change font properties to `inherit` in Safari. */
+  font: inherit;
+}
